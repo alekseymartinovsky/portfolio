@@ -1,5 +1,14 @@
 [
     {
+        "name": "Портфолио",
+        "description": "Мой сай-портфолио, на которым Вы находитесь:)",
+        "tech": ["React", "react-router ", "SCSS", "javascript", "работа с json данными", "html"],
+        "img": "portfolio.png",
+        "sliderImg": ["portfolio.png", "portfolio1.png"],
+        "gitHub": "",
+        "href": ""
+    },
+    {
         "name": "Калькулятор",
         "description": "Веб-калькулятор с историей, возможностью конвертации площади, длинны, температуры, объема, массы, данных, скорости и времени. Реализован с использованием алгоритма обратной польской записи. Реализована возможность использования физической клавиатуры.",
         "tech": ["React", "react-dom", "indexDB", "javascript", "html", "css", "classNames"],
@@ -31,7 +40,7 @@
         "description": "Приложение погоды с прогнозом на неделю, реализованное на открытом REST API, с функцией автоматического определения местоположения, переключением языков и поиском.",
         "tech": ["React", "Redux", "axios", "REST API", "javascript", "html", "css"],
         "img": "weather.png",
-        "sliderImg": ["weather.png"],
+        "sliderImg": ["weather.png", "weather1.png"],
         "gitHub": "#",
         "href": "#"
     },
