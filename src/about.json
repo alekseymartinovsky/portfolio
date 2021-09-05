@@ -1,0 +1,30 @@
+{
+    "name": "Алексей Мартиновский",
+    "avatar": "avatar.png",
+    "location": "Беларусь, г. Минск",
+    "education": "получаю высшее образование в БГУИР",
+    "email": "alekseymartjob@gmail.com",
+    "emailLink": "alekseymartjob@gmail.com",
+    "githubLink": "https://github.com/alekseymartinovsky",
+    "cv": "https://docs.google.com/document/d/1HdUnjFYN7sL0POAWA_jmoZaYoYpSJiIj/edit?usp=sharing&ouid=106334737545909091918&rtpof=true&sd=true",
+    "tech": [
+        "Javascript (ES6+)",
+        "React (react hooks)",
+        "Redux",
+        "React-router",
+        "JQuery",
+        "Html 5",
+        "Css (flexbox)",
+        "Git (базовое использование)",
+        "Scss",
+        "Axios.js",
+        "Fetch",
+        "Различные REST API",
+        "indexDB",
+        "localStorage",
+        "ClassNames",
+        "Json"
+    ],
+    "expiriens": "Разработка некоммерческих SPA приложений на ванильном javascript, React, jQuery. Коммерческая разработка интерфейсов для сервера GTA 5 online на react. Умею базово пользоваться системой контроля версий git, сервисом GitHub. Работал с различными REST API. Имею опыт написания лабороторных и курсового проекта на C.",
+    "addInfo": "Предпочитаю изучать новые технологии на практике. Имею желание углублять свои знания в frontend и изучать новые технологии. В свободное время занимаюсь спортом, играю в шахматы, увлекаюсь speedcubing."
+}

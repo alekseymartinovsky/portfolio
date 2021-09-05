@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    min-height: 100%;
+    position: relative;
+    height: 600px;
+}
+
+@media (max-width: 720px) {
+    .main{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+}

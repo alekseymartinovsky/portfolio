@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import style from './App.module.scss';
+import Header from './components/Header/Header';
+import Container from './components/Container/Container';
+import Info from './components/Info/Info';
+import About from './components/About/About';
+import { useState } from 'react';
+import info from './info.json';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
+  const [selectCard, setSelectCard] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <div className={style.main}>
+              <Container setSelect={setSelectCard} selectCard={selectCard} info={info} />
+              <Info selectCard={selectCard} info={info} />
+            </div>
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+
+      </BrowserRouter>
     </div>
   );
 }

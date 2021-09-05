@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.header{
+    display: flex;
+    height: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: $color_1;
+    color: $color_4;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+}
+
+.header_link{
+   cursor: pointer;
+   color: $color_4;
+   &:hover{
+    color: $color_5;
+    transition: .5s;
+   } 
+}
+
+.active{
+    color: $color_5;
+    border-bottom: 1px solid $color_5;
+    padding: 5px;
+}

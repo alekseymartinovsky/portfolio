@@ -1,0 +1,80 @@
+@import '../../variables.scss';
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 90%;    
+    margin-top: 10px;
+    height: 100%;
+    margin-left: -1px;
+    overflow: hidden;
+    p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: 300;
+    }
+    h1{
+        padding-left: 5%;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    div{
+        width: 105%;
+        margin-left: -10px;
+        margin-top: -3px;
+    }
+    &:hover{
+        background: $color_5;
+    }
+}
+
+.titleImg{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: top;
+}
+
+@media (max-width: 720px) {
+    .container{
+        justify-content: start;
+        align-items: flex-start;
+        width: 200px;
+        margin: 0 10px;
+    }
+
+    .card{
+        height: auto;
+        h1{
+            margin: 0;
+            padding-bottom: 5px;
+        }
+        p{
+            visibility: hidden;
+            height: 0px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    .titleImg{
+        
+    }
+}
+
+

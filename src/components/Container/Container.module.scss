@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.container{
+    display: flex;
+    width: 35%;
+    margin: 0 auto; 
+    flex-direction: column;
+    height: calc(100vh - 90px);
+    float: left;
+    overflow-y: scroll;
+    background: $color_4;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+    .container{
+        flex-direction: row;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+        float: top;
+        overflow-x: scroll;
+        height: fit-content;
+    }
+}

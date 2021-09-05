@@ -1,0 +1,147 @@
+@import '../../variables.scss';
+
+ul{
+    margin: 0px;
+}
+
+.info{
+    width: 65%;
+    background: $color_5;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    padding: 0px 10%;
+}
+
+.slider{
+    border: 1px solid black;
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.slider_line{
+    display: flex;
+    transition: all ease 0.5s;
+}
+
+.slider_img{
+    height: auto;
+}
+
+.slider_btn{
+    z-index: 3;
+    font-size: 24px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    position: absolute;              
+    top: 50%;                        
+    transform: translate(0, -50%);
+}
+
+.slider_btn_all{
+    border: solid $color_2;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 30px;
+    &:hover{
+        border-color: $color_4;
+        transition: 0.2s;
+    }
+}
+
+
+.slider_btn_left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 20px;
+}
+
+.slider_btn_right{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(315deg);
+    margin-right: 20px; 
+}
+
+
+.title{
+    color: $color_1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+h2{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-weight: 400;
+}
+
+li{
+    font-weight: 400;
+    list-style-type: none;
+}
+
+li::before{
+    color: $color_2;
+    content: '●';
+    margin-right: 7px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10%;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.link_site{
+    text-decoration: underline;
+    &:hover{
+        color: $color_2;
+    }
+};
+
+.link_git{
+    text-decoration: underline;
+    &:hover{
+        color: $color_2;
+    }
+}
+
+@media (max-width: 720px) {
+    .info{
+        width: 100%;
+        padding: 0;
+        height: fit-content;
+        min-height: calc(100vh - 70px - 151px);
+    }
+
+    .slider{
+        max-width: 90%;
+    }
+
+    .title{
+        margin-top: 0px;
+    }
+
+    .content{
+        padding: 5%;
+    }
+
+    .link{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 10px;
+    }
+}

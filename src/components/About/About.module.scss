@@ -1,0 +1,134 @@
+@import '../../variables.scss';
+
+.about{
+    background: $color_5;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: calc(100vh - 130px);
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto; 
+    background: $color_4;
+}
+
+.container_content{
+    padding: 0 10%;
+}
+
+.name_block{
+    display: flex;
+    justify-content: center;
+}
+
+.fio{
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 30px;;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.personal{
+    width: 100%;
+    border-spacing: 0px 5px;
+}
+
+.personal_block{
+    display: flex;
+}
+
+.personal_title{
+    padding-left: 20px;
+    letter-spacing: 0.05em;
+    width: 30%;
+}
+
+.personal_content{
+    padding-left: 0%;
+    a{
+        text-decoration: underline;
+        &:hover{
+            color: $color_2;
+            transition: 0.2s;
+        }
+    }
+}
+
+ul{
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.additional{
+    padding-bottom: 50px;
+}
+
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+    }
+
+    .container_content{
+        padding: 10px;
+    }
+
+    .name_block{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .avatar{
+        margin: 0 auto;
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .fio{
+        padding: 0;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .personal_block{
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    .personal_title{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0em;
+    }
+
+    .personal_content{
+        padding-left: 60px;
+    }
+
+    .additional{
+        padding-bottom: 20px;
+    }
+}

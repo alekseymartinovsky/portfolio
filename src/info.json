@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Калькулятор",
+        "description": "Веб-калькулятор с историей, возможностью конвертации площади, длинны, температуры, объема, массы, данных, скорости и времени. Реализован с использованием алгоритма обратной польской записи. Реализована возможность использования физической клавиатуры.",
+        "tech": ["React", "react-dom", "indexDB", "javascript", "html", "css", "classNames"],
+        "img": "calculator.jpg",
+        "sliderImg": ["calculator.jpg", "calculator2.png", "calculator3.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/calculator",
+        "href": "https://alekseymartinovsky.github.io/calculator/"
+    },
+    {
+        "name": "gitHubViewer",
+        "description": "SPA приложение для просмотра популярных гитхиб репозиториев, реализован через gitHub Api.",
+        "tech": ["React", "Redux", "axios", "REST API", "javascript", "html", "css"],
+        "img": "gitHubViewer.jpg",
+        "sliderImg": ["gitHubViewer.jpg", "gitHubViewer2.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/gitHubRep",
+        "href": "https://alekseymartinovsky.github.io/gitHubRep/"
+    },
+    {
+        "name": "Сапёр",
+        "description": "Классическая игра саппёр с разными уровнями сложности, секундомером и учетом рекордов. Реализована как SPA.",
+        "tech": ["javascript", "html", "css", "localStorage"],
+        "img": "sapper.png",
+        "sliderImg": ["sapper.png", "sapper2.png", "sapper3.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/sapper",
+        "href": "https://alekseymartinovsky.github.io/sapper/"
+    },
+    {
+        "name": "Погода",
+        "description": "Приложение погоды с прогнозом на неделю, реализованное на открытом REST API, с функцией автоматического определения местоположения, переключением языков и поиском.",
+        "tech": ["React", "Redux", "axios", "REST API", "javascript", "html", "css"],
+        "img": "weather.png",
+        "sliderImg": ["weather.png"],
+        "gitHub": "#",
+        "href": "#"
+    },
+    {
+        "name": "2048",
+        "description": "Игра 2048, реализована как SPA, доступны разные уровни сложности. Доступно управление клавиатурой, мышкой или сенсорным экраном.",
+        "tech": ["javascript", "css", "html", "localStorage"],
+        "img": "2048.png",
+        "sliderImg": ["2048.png", "2048_2.png", "2048_3.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/2048",
+        "href": "https://alekseymartinovsky.github.io/2048/"
+    },
+    {
+        "name": "Конвертер",
+        "description": "Конвертер различных валют по курсу НБРБ, реализован с REST API; SPA",
+        "tech": ["javascript", "html", "css", "REST API", "fetch запросы"],
+        "img": "converter.png",
+        "sliderImg": ["converter.png","converter2.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/converter",
+        "href": "https://alekseymartinovsky.github.io/converter/"
+    }
+]
