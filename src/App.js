@@ -11,7 +11,8 @@ function App() {
   const [selectCard, setSelectCard] = useState(0);
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
+        <Route>
         <Header />
         <Switch>
           <Route exact path="/">
@@ -24,7 +25,7 @@ function App() {
             <About />
           </Route>
         </Switch>
-
+        </Route>
       </BrowserRouter>
     </div>
   );

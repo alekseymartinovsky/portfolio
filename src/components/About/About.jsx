@@ -57,6 +57,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className={style.footer}></div>
         </div>
     )
 }

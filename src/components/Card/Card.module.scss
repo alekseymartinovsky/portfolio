@@ -40,10 +40,11 @@
 }
 
 .titleImg{
-    width: 100%;
+    width: 102%;
     height: auto;
     display: block;
     float: top;
+    border-bottom: 1px solid black;
 }
 
 @media (max-width: 720px) {

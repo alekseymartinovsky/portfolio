@@ -1,12 +1,12 @@
 [
     {
         "name": "Портфолио",
-        "description": "Мой сай-портфолио, на которым Вы находитесь:)",
+        "description": "Мой сай-портфолио, на которым Вы находитесь:) (почитать обо мне можно на странице контактов)",
         "tech": ["React", "react-router ", "SCSS", "javascript", "работа с json данными", "html"],
         "img": "portfolio.png",
         "sliderImg": ["portfolio.png", "portfolio1.png"],
-        "gitHub": "",
-        "href": ""
+        "gitHub": "https://github.com/alekseymartinovsky/portfolio/tree/master",
+        "href": "#"
     },
     {
         "name": "Калькулятор",

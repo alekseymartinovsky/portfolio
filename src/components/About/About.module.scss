@@ -85,9 +85,20 @@ ul{
     font-weight: 300;
 }
 
+.footer{
+    display: none;
+}
+
 @media (max-width: 768px) {
+    .about{
+        overflow-y: scroll;
+        height: calc(100vh - 70px);
+        
+    }
+
     .container{
         width: 90%;
+        margin-bottom: 30px;
     }
 
     .container_content{
@@ -130,5 +141,11 @@ ul{
 
     .additional{
         padding-bottom: 20px;
+    }
+
+    .footer{
+        display: block;
+        height: 30px;
+        background:$color_5;
     }
 }
