@@ -1,5 +1,14 @@
 [
     {
+        "name": "Кредитный калькулятор",
+        "description": "Калькулятор для рассчета аннуитивных и дифференцированных кредитов, с расчетом помесячных выплат",
+        "tech": ["Angular", "javascript", "scss", "html", "REST API"],
+        "img": "credit.png",
+        "sliderImg": ["credit.png", "credit2.png"],
+        "gitHub": "https://github.com/alekseymartinovsky/creditcalculator",
+        "href": "https://alekseymartinovsky.github.io/creditcalculator/"
+    },
+    {
         "name": "Калькулятор",
         "description": "Веб-калькулятор с историей, возможностью конвертации площади, длинны, температуры, объема, массы, данных, скорости и времени. Реализован с использованием алгоритма обратной польской записи. Реализована возможность использования физической клавиатуры.",
         "tech": ["React", "react-dom", "indexDB", "javascript", "html", "css", "classNames"],
